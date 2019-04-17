@@ -3,7 +3,7 @@
 from configobj import ConfigObj, flatten_errors
 from validate import Validator
 
-from item import Items
+from sconfig.item import Items
 
 default_config = "config/project.cfg"
 default_spec = "config/project.spc"
