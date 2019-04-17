@@ -1,5 +1,5 @@
-# simple config (sconfig)
-for the simple config module
+# sconfig (simple config)
+a simple config module
 
 # installation
 ```bash
