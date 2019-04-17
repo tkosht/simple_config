@@ -24,7 +24,7 @@ setuptools.setup(
     long_description=readme,
     license='MIT',
 
-    packages=setuptools.find_packages(exclude=('test', 'examples')),
+    packages=setuptools.find_packages(exclude=('test', 'examples', 'bin')),
 
     zip_safe=True,
     install_requires=requirements,
