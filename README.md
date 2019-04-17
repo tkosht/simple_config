@@ -1,2 +1,2 @@
-# simple_config
+# simple config (sconfig)
 for the simple config module
