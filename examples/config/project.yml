@@ -1,0 +1,27 @@
+model1:
+    batch_size: 2048
+    samples: 10000
+    vector_size: 128
+    epochs: 10
+
+model2:
+    gpu: 1
+    load: False
+    model_dir: model/seq2vec
+    train:
+        lr: 0.001
+        weight_decay: 0
+        hidden_size: 100
+        n_layers: 1
+        bidirectional: False
+        max_seqlen: 7
+        epochs: 1000
+        train_samples: -1  # using full of trainset
+        # train_samples: 10    # using samples of trainset
+    predict:
+        predict_intervals: 100
+        predict_samples: 5
+
+visdom:
+    server: 0.0.0.0
+    port: 8097
