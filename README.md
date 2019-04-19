@@ -17,6 +17,17 @@ python example.py
 ## to customize config file
 you can change the config item(name or type), or values
 
+### for yml file
+you should only change the yml file like 'examples/config/project.yml'
+
+```bash
+cd $(git rev-parse --show-toplevel)/examples
+vi config/project.yml
+```
+
+### for cfg and spc file
+you must only change the cfg and spc file.
+
 ```bash
 cd $(git rev-parse --show-toplevel)/examples
 vi config/project.cfg
