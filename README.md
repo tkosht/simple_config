@@ -33,7 +33,7 @@ cd $(git rev-parse --show-toplevel)/examples
 vi config/project.cfg
 ```
 
-## to customize config spec file
+#### to customize config spec file
 you must modify the spec file like 'examples/config/project.spc'
 when you changed the type of some config item in config file like 'examples/config/project.cfg'.
 
