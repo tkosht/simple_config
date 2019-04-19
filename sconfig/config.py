@@ -7,8 +7,10 @@ from validate import Validator
 
 from sconfig.item import Items
 
-default_config = "config/project.cfg"
-default_spec = "config/project.spc"
+# default_config = "config/project.cfg"
+# default_spec = "config/project.spc"
+default_config = "config/project.yml"
+default_spec = None
 
 
 class ConfigLoader(object):

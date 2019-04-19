@@ -12,7 +12,7 @@ if __name__ == '__main__':
     assert vis.server == "0.0.0.0"
     assert vis.port == 8097
 
-    cfg = Config('config/project.yml')
+    cfg = Config('config/project.cfg', 'config/project.spc')
     assert cfg.model1.batch_size == 2048
     assert cfg.model1.samples == 10000
 
